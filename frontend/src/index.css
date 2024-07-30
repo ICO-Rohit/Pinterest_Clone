@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .common_input {
+    @apply mt-1 w-full px-3 py-4 border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm;
+} */
+
+.common-input {
+    @apply mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm;
+}
+
+.common-button {
+    @apply w-full px-4 py-2 bg-red-600 rounded-md hover:bg-red-700 text-white font-semibold shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500;
+}
