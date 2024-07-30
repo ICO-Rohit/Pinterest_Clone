@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { UserData } from "../context/userContext";
 import { LoadingAnimation } from "../components/Loading";
 import { PinData } from "../context/PinContext";
-// import { PinData } from "../context/PinContext";
 
 const Register = () => {
     const [email, setEmail] = useState("");
@@ -12,8 +11,6 @@ const Register = () => {
     const { fetchPins } = PinData();
     const { registerUser, btnLoading } = UserData();
     const navigate = useNavigate();
-
-    // const { fetchPins } = PinData();
 
     const submitHandler = (e) => {
         e.preventDefault();
